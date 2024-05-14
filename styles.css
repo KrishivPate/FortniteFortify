@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.tip {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tip h2 {
+    margin-top: 0;
+}
+
+.tip p {
+    margin-bottom: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative; /* Added for positioning of options menu */
+}
+
+.options-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #888; /* Light grey color */
+}
+
+.options-button:hover {
+    background-color: transparent; /* Remove the background color on hover */
+}
+
+.options-menu {
+    position: absolute;
+    top: 25px;
+    right: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.option {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+body {
+    font-family: 'Roboto', sans-serif; /* Use a font similar to the Fortnite aesthetic */
+    margin: 0;
+    padding: 20px;
+    background-image: url('fortnite_background.jpg'); /* Replace 'fortnite_background.jpg' with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF; /* Set text color to white for better contrast */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 42px; /* Increase the font size for the title */
+    color: #93c8d0; /* Use Fortnite yellow for the title */
+}
+
+.tip {
+    background-color: rgba(0, 0, 0, 0.5); /* Use semi-transparent black for the background of tips */
+    border-radius: 8px; /* Increase border-radius for rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tip h2 {
+    margin-top: 0;
+    font-size: 24px; /* Increase font size for tip titles */
+}
+
+.tip p {
+    margin-bottom: 0;
+    font-size: 18px; /* Increase font size for tip descriptions */
+}
